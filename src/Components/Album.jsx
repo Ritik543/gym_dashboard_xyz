@@ -16,7 +16,7 @@ const TextAlbum = () => {
         { id: 3, url: 'https://s3-alpha-sig.figma.com/img/a260/a303/b99c8e0104c45bfe796c62328409147d?Expires=1728259200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=QFumJtA8ecHsJILwFvdSqNTwCjmAtDEIPIHmn8wz-sh9mU9xq2IpE69lOHUMs5m3Ho6XBt45Tq4GHBlEiXgZVBYzxqPHJA10YDH1YK-HCEDqG5Nc~sobmYoqPUlZyU1r1MlXwg2dY26W5IZfTjoSaXMtdl-~28FBZCewUlCri~BKiY4WxmO9uk1vVRYk7A2NlbB8~OsDYebJaSX0DP2W7VY5lYq7SNy3YgVEZKUvEXA5nfa9TztDOUkFjP21AJiDQkNyaRxWE-gEKC5LYQdgugRE68M3phunbZUT7cpkjWxSGN1iJejAJe6wmdbRd~TXKQSfKNSL3oVon~qOoc6uuQ__', alt: 'Image 3' },
     ];
 
-    const video = { id: 1, url: '/public/video.mp4', alt: 'Video 1' };
+    const video = { id: 1, url: 'video.mp4', alt: 'Video 1' };
 
     return (
         <div className="album-container">
