@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+.stats-container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 60px;
+}
+
+.stat-item {
+  text-align: center;
+}
+.stat-item p{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    font-family: "open sans ";
+}
+
+.stat-number {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 10px;
+    padding-bottom: 10px;
+}
+.box h2{
+    font-weight: 600;
+    font-size: 45.94px;
+    line-height: 53.84px;
+    font-family: roboto;
+}
+/* ... existing code ... */
+
+@media (max-width: 1200px) {
+  .stat-item p {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .stat-number {
+    font-size: 32px;
+  }
+
+  .box h2 {
+    font-size: 40px;
+    line-height: 48px;
+  }
+}
+
+@media (max-width: 768px) {
+  .stats-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .stat-item p {
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  .stat-number {
+    font-size: 28px;
+  }
+
+  .box {
+    flex-direction: row;
+    gap: 5px;
+  }
+
+  .box h2 {
+    font-size: 36px;
+    line-height: 44px;
+  }
+}
+
+@media (max-width: 480px) {
+  .stat-item p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .stat-number {
+    font-size: 24px;
+  }
+
+  .box h2 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+}
+
+/* ... existing code ... */

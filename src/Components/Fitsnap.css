@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px; 
+    background-color: white;
+  }
+  
+  .heading {
+    font-size: 3em; 
+    font-weight: 600;
+    font-family: "Montserrat";
+    line-height: 73.13px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .subheading {
+    font-size: 24px; 
+    line-height: 29.26px;
+    font-weight: 500;
+    font-family: "Montserrat";
+    text-align: center;
+  }

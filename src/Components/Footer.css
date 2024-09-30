@@ -1,0 +1,218 @@
+.container-4 {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+
+.left, .right {
+    width: 45%;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    /* text-align: left; */
+    width: 30%;
+    /* border: 1px solid red; */
+    margin-left: 100px;
+    /* margin-bottom: 100px; */
+    font-family: Open Sans;
+font-size: 24px;
+font-weight: 400;
+line-height: 28.8px;
+text-align: left;
+
+}
+
+.left h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.left p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.right {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 40px;
+    text-align: left;
+    width: 60%;
+    /* border: 1px solid red; */
+}
+
+.right h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.right p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.logo-4 {
+    width: 150px;
+    height: 150px;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons svg {
+    font-size: 24px;
+    margin-right: 15px;
+}
+
+footer {
+    background-color: #000;
+    padding: 50px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    font-family: Open Sans;
+font-size: 24px;
+font-weight: 400;
+line-height: 28.8px;
+text-align: left;
+
+}
+
+.download {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.company {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    font-family: Open Sans;
+font-size: 24px;
+font-weight: 400;
+line-height: 28.8px;
+text-align: left;
+
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    
+}
+@media (max-width: 480px) {
+    .left h1 {
+        font-size: 36px;
+        display: inline;
+    }
+
+    .left p, .right p {
+        font-size: 16px;
+    }
+
+    .right h2 {
+        font-size: 20px;
+    }
+
+    .logo-4 {
+        width: 100px;
+        height: 100px;
+    }
+
+    .social-icons svg {
+        font-size: 20px;
+        margin-right: 10px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .container-4 {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .left, .right {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .left {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .right {
+        width: 100%;
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container-4 {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .left, .right {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .left {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .right {
+        width: 100%;
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .left h1 {
+        font-size: 36px;
+    }
+
+    .left p, .right p {
+        font-size: 16px;
+    }
+
+    .right h2 {
+        font-size: 20px;
+    }
+
+    .logo-4 {
+        width: 100px;
+        height: 100px;
+    }
+
+    .social-icons svg {
+        font-size: 20px;
+        margin-right: 10px;
+    }
+}

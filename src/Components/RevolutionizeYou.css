@@ -1,0 +1,199 @@
+
+
+.revolutionize-container {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #ffffff;
+}
+
+.header {
+    font-size: 48px;
+    letter-spacing: 10px;
+    margin-bottom: 50px;
+    font-family: Montserrat;
+font-size: 101px;
+font-style: italic;
+font-weight: 300;
+line-height: 123.12px;
+letter-spacing: 0.19em;
+text-align: left;
+
+}
+
+.sub-header {
+    font-size: 36px;
+    margin-bottom: 50px;
+    font-family: Montserrat;
+font-size: 70px;
+font-weight: 500;
+line-height: 85.33px;
+text-align: center;
+
+}
+
+.features {
+    display: flex;
+    /* align-items: flex-start; */
+    justify-content: space-between;
+    width: 60vw;
+    margin-bottom: 50px;
+}
+
+.feature-list {
+    border: 1px solid #13118F;
+    border-radius: 10px ;
+    padding: 32px 10px 0px 12px;
+    margin-right: 50px;
+    min-width: 363.17px;
+    min-height: 538.4px;
+    gap: 17px;
+    
+}
+
+.feature-list ul {
+    list-style: none;
+    padding: 0;
+}
+.feature-list ul li{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.feature-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-family: Inter;
+font-size: 17.54px;
+font-weight: 500;
+line-height: 21.23px;
+text-align: center;
+
+}
+
+.feature-list li svg {
+    color: #0000ff;
+    margin-left: 10px;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 500px;
+    text-align: left;
+    /* border: 1px solid black; */
+    
+}
+
+.description p {
+    font-size: 18px;
+    line-height: 1.5;
+    font-family: Montserrat;
+font-size: 24px;
+font-weight: 500;
+line-height: 34px;
+letter-spacing: 0.02em;
+text-align: left;
+
+}
+
+.download-button {
+    display: inline-block;
+    margin-top: 20px;
+    align-self: flex-start;
+    padding: 10px 20px;
+    border: 1px solid #0000ff;
+    border-radius: 20px;
+    color: #0000ff;
+    text-decoration: none;
+    font-size: 18px;
+}
+.download-button:hover{
+    background-color: #0000ff;
+    color: #fff;
+}
+
+.download-button svg {
+    margin-left: 10px;
+    vertical-align: middle;
+}
+// ... existing code ...
+
+@media (max-width: 1200px) {
+    .features {
+        flex-direction: column;
+        align-items: center;
+        width: 80vw;
+    }
+
+    .feature-list {
+        margin-right: 0;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+        font-size: 36px;
+        text-align: center;
+    }
+
+    .sub-header {
+        font-size: 24px;
+    }
+
+    .features {
+        width: 90vw;
+    }
+
+    .feature-list {
+        padding: 20px;
+        min-width: auto;
+        min-height: auto;
+    }
+
+    .description {
+        max-width: 90%;
+    }
+
+    .description p {
+        font-size: 16px;
+    }
+
+    .download-button {
+        font-size: 16px;
+        padding: 8px 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .header {
+        font-size: 24px;
+    }
+
+    .sub-header {
+        font-size: 18px;
+    }
+
+    .description p {
+        font-size: 14px;
+    }
+
+    .download-button {
+        font-size: 14px;
+        padding: 6px 12px;
+    }
+}
+
+/* // ... existing code ... */

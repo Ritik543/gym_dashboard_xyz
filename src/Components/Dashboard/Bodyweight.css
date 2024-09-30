@@ -1,0 +1,33 @@
+.body-fat-gauge {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+  height: 200px;
+}
+
+.gauge {
+  position: relative;
+  height: 100px; 
+}
+
+.gauge-label {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.gauge-label span {
+  font-size: 2rem;
+  color: #ff6b6b;
+}
+
+.gauge-label p {
+  color: #888;
+  margin-top: 5px;
+}

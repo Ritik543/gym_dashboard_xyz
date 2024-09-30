@@ -1,0 +1,8 @@
+body, html, #root, .App {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Arial', sans-serif;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}

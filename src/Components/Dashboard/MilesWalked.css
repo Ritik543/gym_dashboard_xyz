@@ -1,0 +1,37 @@
+.miles-walked {
+    background-color:#3D73AF;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    min-width: 350px;
+  }
+  
+  .miles-walked h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #FFFFFF
+  }
+  
+  .graph {
+    position: relative;
+    height: 200px;
+    width: 100%;
+  }
+  
+  canvas {
+    width: 100% !important;
+    height: 100% !important;
+  }
+  
+  .graph-placeholder {
+    height: 200px;
+    background-color:#FFFFFF;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    font-size: 14px;
+  }
+  
