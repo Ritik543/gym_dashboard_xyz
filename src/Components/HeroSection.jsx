@@ -9,7 +9,7 @@ const HeroSection = () => {
 
                 <div className="hero-container">
                     <video autoPlay loop muted>
-                        <source src="public\-0c44-4d47-b5de-24240b06f535.mp4" type="video/mp4" />
+                        <source src="/-0c44-4d47-b5de-24240b06f535.mp4" type="video/mp4" />
                     </video>
 
 
