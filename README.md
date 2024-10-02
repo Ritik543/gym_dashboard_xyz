@@ -1,5 +1,9 @@
-Gym Dashboard
-Welcome to the Gym Dashboard project! This repository contains a comprehensive gym management web application built with React and Vite. The application offers an intuitive dashboard for managing gym operations, tracking memberships, scheduling classes, and monitoring equipment usage
+
+
+
+
+<div align="center">🏋️‍♂️ Gym Dashboard</div>
+<div align="center"> <img src="https://github.com/yourusername/gym-dashboard/assets/demo-screenshot.png" alt="Gym Dashboard Demo" width="800"/> </div> <p align="center"> <strong>Manage gym operations, track memberships, schedule classes, and monitor equipment usage seamlessly.</strong> </p>
 Getting Started
 Follow these instructions to set up and run the Gym Dashboard project on your local machine.
 
